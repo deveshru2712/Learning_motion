@@ -1,9 +1,9 @@
-import Card from "../components/Card";
+import Sidebar from "../components/Sidebar";
 
 const App = () => {
   return (
-    <div className="h-screen flex justify-center items-center bg-gray-50">
-      <Card />
+    <div className="h-screen flex justify-center items-center bg-slate-100">
+      <Sidebar />
     </div>
   );
 };
