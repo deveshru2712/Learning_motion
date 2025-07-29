@@ -1,9 +1,9 @@
-import Sidebar from "../components/Sidebar";
+import MotionHook from "../components/motion-hook";
 
 const App = () => {
   return (
-    <div className="h-screen flex justify-center items-center bg-slate-100">
-      <Sidebar />
+    <div className="overflow-x-hidden">
+      <MotionHook></MotionHook>
     </div>
   );
 };

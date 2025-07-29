@@ -22,7 +22,7 @@ const Sidebar = () => {
     open: { width: "16rem" },
     closed: {
       width: "4.5rem",
-      transition: { delay: 0.2 }, // Delay the width collapse
+      transition: { delay: 0.2 },
     },
   };
 
